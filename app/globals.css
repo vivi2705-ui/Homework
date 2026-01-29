@@ -23,4 +23,96 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
+
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+}
+
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+
+.fiche-section {
+  margin: 20px 0;
+}
+
+h1, h2, h3, span {
+  margin: 10px;
+}
+
+h1 {
+  color: rebeccapurple;
+}
+
+
+.competence-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.competence-label {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.competence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.competence-list li {
+  background: #f0f0f0;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rebeccapurple;
+}
+
+
+.form-section {
+  margin-top: 30px;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  border-radius: 7px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background: white;
+}
+
+button:hover {
+  background: rebeccapurple;
+  color: white;
+}
+
